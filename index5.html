@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/js.png">
+    <title>JS</title>
+</head>
+
+<body>
+    <script>
+        'use strict'
+
+/*
+5 rəqəmdən ibarət massiv yaradın. 
+Orijinal massivin surətini çıxarın və yeni massivin bütün elementlərini ikiqat artırın.
+Orijinal massivin dəyişmədiyini yoxlayın.
+*/
+
+const numbersArr = [2,4,6,8,1];
+const numbersDuplicate = [...numbersArr];
+for (let i = 0; i < numbersDuplicate.length; i++) {
+    numbersDuplicate[i] = numbersDuplicate[i] * 2
+}
+console.log(numbersDuplicate);
+
+/*
+const numbers = [1, 2, 3, 4, 5];
+
+const doubledNumbers = numbers.map(number => number * 2);
+
+console.log(doubledNumbers);
+*/
+
+    </script>
+</body>
+
+</html>
